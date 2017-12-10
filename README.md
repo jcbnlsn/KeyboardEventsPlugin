@@ -44,7 +44,7 @@ A keyboard event returns a table of information which you can use to re-arrange 
 
 Multiply this number with display.contentScaleY to convert to coronas screen units.
 
-**animationDuration** (number) the duration of the keyboard transition in milliseconds.
+**event.animationDuration** (number) the duration of the keyboard transition in milliseconds.
 
 
 ### Auto-correction and spell checking
@@ -68,7 +68,11 @@ keyboardEvents.setSpellCheckingType ( type )
 
 
 ### **Gotchas**
-You need to set spell checking and auto-correction after creating your text boxes. When calling keyboardEvents.setSpellCheckingType or keyboardEvents.setAutocorrectionType the type will be set on all instances of the text boxes in your app.
+* When using the moveView feature you need to dismiss the keyboard when suspending the application.
+
+* You need to set spell checking and auto-correction after creating your text boxes. 
+
+* When calling keyboardEvents.setSpellCheckingType or keyboardEvents.setAutocorrectionType the type will be set on all instances of the text boxes in your app.
  
 ### **Project Settings**
 To use this plugin, add an entry into the plugins table of build.settings. When added, the build server will integrate the plugin during the build phase.
