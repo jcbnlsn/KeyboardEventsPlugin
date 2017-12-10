@@ -28,9 +28,9 @@ To recieve keyboard events add a runtime listener:
 local function keyboardEventListener( event )
     
     if ( event.phase == "willShow" ) then
-    elseif ( event.type == "didShow" ) then
-    elseif ( event.type == "willHide" ) then
-    elseif ( event.type == "didHide" ) then
+    elseif ( event.phase == "didShow" ) then
+    elseif ( event.phase == "willHide" ) then
+    elseif ( event.phase == "didHide" ) then
     end
 end
 
