@@ -70,9 +70,9 @@ keyboardEvents.setSpellCheckingType ( type )
 ### **Gotchas**
 * When using the moveView feature you need to dismiss the keyboard when suspending the application.
 
-* You need to set spell checking and auto-correction **AFTER** creating your text boxes. 
-
 * When calling keyboardEvents.setSpellCheckingType or keyboardEvents.setAutocorrectionType the type will be set on all instances of the text boxes in your app.
+
+* You need to set spell checking and auto-correction **AFTER** creating your text boxes. 
  
 ### **Project Settings**
 To use this plugin, add an entry into the plugins table of build.settings. When added, the build server will integrate the plugin during the build phase.
