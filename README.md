@@ -1,6 +1,7 @@
 
 Documentation and samplecode for:
 ## **Keyboard Events for iOS - Corona SDK Plugin**
+https://marketplace.coronalabs.com/plugin/keyboard-events
 
 * This plugin adds an event listener to the iOS keyboard. Letting your app listen for "willShow", "didShow", willHide", "didHide" event phases. The events contain information about the keyboard height and the duration of the keyboard animation.
 
