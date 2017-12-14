@@ -40,7 +40,7 @@ Runtime:addEventListener( "keyboardEvents", keyboardEventListener )
 ### Event Data
 A keyboard event returns a table of information which you can use to re-arrange you apps layout. This table includes the following:
 
-**event.phase** (number) phases of the keyboard visibility.
+**event.phase** (string) phases of the keyboard visibility.
 
 Possible values are: "willShow", "didShow", "willHide", "didHide"
 
