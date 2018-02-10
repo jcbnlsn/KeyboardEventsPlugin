@@ -72,6 +72,14 @@ keyboardEvents.setSpellCheckingType ( type )
 "UITextAutocorrectionTypeDefault", "UITextAutocorrectionTypeYes", "UITextAutocorrectionTypeNo"
 
 
+```lua
+keyboardEvents.setKeyboardAppearance ( type )
+```
+**type** (string) Controls the appearance (color) of the keyboard. You need to call keyboardEvents.setKeyboardAppearance after creating your textFields and textBoxes. Possible values are:
+
+"default", "light", "dark"
+
+
 ### **Gotchas**
 * When using the moveView feature you need to dismiss the keyboard when suspending the application.
 
