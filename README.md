@@ -54,7 +54,7 @@ Multiply this number with display.contentScaleY to convert to coronas screen uni
 
 ### Move Corona View
 
-Turn off move view on/off on the fly.
+Turn the option to move the Corona view on/off on the fly.
 
 ```lua
 keyboardEvents.setMoveView(bool)
