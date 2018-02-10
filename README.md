@@ -7,7 +7,7 @@ https://marketplace.coronalabs.com/plugin/keyboard-events
 
 * The plugin also have an option to move the entire Corona view up with the keyboard, which is a usefull feature for eg. chat boxes where the textfield is placed at the bottom of the screen.
 
-* As a bonus feature you can use this plugin to turn off autocorrection and spell checking on text boxes created with Coronas API (this is a missing feature in the native.newTextBox implementation).  
+* Bonus features: **1.** turn off autocorrection and spell checking on text boxes created with Coronas API (this is a missing feature in the native.newTextBox implementation). **2.** Set keyboard appearance (color) on the native keyboard.
 
 ### **Syntax**
 Initialize the plugin with:
@@ -100,7 +100,7 @@ keyboardEvents.setKeyboardAppearance ( type )
 
 * When calling keyboardEvents.setSpellCheckingType or keyboardEvents.setAutocorrectionType the type will be set on all instances of the text boxes in your app.
 
-* You need to set spell checking and auto-correction **AFTER** creating your text boxes. 
+* You need to set spell checking, auto-correction and setKeyboardAppearance **AFTER** creating your text boxes. 
  
 ### **Project Settings**
 To use this plugin, add an entry into the plugins table of build.settings. When added, the build server will integrate the plugin during the build phase.
