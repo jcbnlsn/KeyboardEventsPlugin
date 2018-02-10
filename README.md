@@ -54,6 +54,8 @@ Multiply this number with display.contentScaleY to convert to coronas screen uni
 
 ### Move Corona View
 
+Turn off move view on/off on the fly.
+
 ```lua
 keyboardEvents.setMoveView(bool)
 ```
@@ -62,7 +64,7 @@ keyboardEvents.setMoveView(bool)
 ```lua
 keyboardEvents.setMoveViewOffsetY(offset)
 ```
-**offset** (number) Sets an offset factor on the number off pixels the view moves..
+**offset** (number) Sets an offset factor on the number off pixels the view moves.
 
 
 ### Auto-correction and spell checking
