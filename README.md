@@ -72,6 +72,8 @@ keyboardEvents.setSpellCheckingType ( type )
 "UITextAutocorrectionTypeDefault", "UITextAutocorrectionTypeYes", "UITextAutocorrectionTypeNo"
 
 
+### Keyboard Appearance
+
 ```lua
 keyboardEvents.setKeyboardAppearance ( type )
 ```
