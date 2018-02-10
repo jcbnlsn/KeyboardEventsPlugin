@@ -52,6 +52,19 @@ Multiply this number with display.contentScaleY to convert to coronas screen uni
 **event.animationDuration** (number) the duration of the keyboard transition in milliseconds.
 
 
+### Move Corona View
+
+```lua
+keyboardEvents.setMoveView(bool)
+```
+**bool** (bool) Turn the option to move the view with the keyboard on/off.
+
+```lua
+keyboardEvents.setMoveViewOffsetY(offset)
+```
+**offset** (number) Sets an offset factor on the number off pixels the view moves..
+
+
 ### Auto-correction and spell checking
 
 ```lua
