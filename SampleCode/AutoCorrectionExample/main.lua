@@ -15,6 +15,7 @@ textBox.size = 20
 
 keyboardEvents.setAutocorrectionType("UITextAutocorrectionTypeNo")
 keyboardEvents.setSpellCheckingType("UITextSpellCheckingTypeNo")
+keyboardEvents.setKeyboardAppearance ( "dark" )
 
 
 
