@@ -102,7 +102,7 @@ keyboardEvents.setKeyboardAppearance ( type )
 
 * When calling keyboardEvents.setSpellCheckingType or keyboardEvents.setAutocorrectionType the type will be set on all instances of the text boxes in your app.
 
-* You need to set spell checking, auto-correction and setKeyboardAppearance **AFTER** creating your text boxes. 
+* You need to set spell checking, auto-correction and keyboard appearance **AFTER** creating your text boxes. 
  
 ### **Project Settings**
 To use this plugin, add an entry into the plugins table of build.settings. When added, the build server will integrate the plugin during the build phase.
