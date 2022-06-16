@@ -35,7 +35,7 @@ local function keyboardEventListener( event )
     end
 end
 
-Runtime:addEventListener( "keyboardEvents", keyboardEventListener )
+Runtime:addEventListener( "keyboardEvent", keyboardEventListener )
 ```
 
 ### Event Data
